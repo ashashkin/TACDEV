@@ -159,7 +159,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;access_token_v&quot;"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tExtractJSONFields_1_NB_LINE&quot;))"/>
+      <elementValue elementRef="VALUE" value="row1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="access_token"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
