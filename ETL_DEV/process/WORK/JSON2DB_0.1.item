@@ -116,9 +116,9 @@
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.data[*]&quot;" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="store"/>
-      <elementValue elementRef="QUERY" value="&quot;[]$.data.site&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.$.data.site&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="site_type"/>
-      <elementValue elementRef="QUERY" value="&quot;[]$.data.siteType&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;.$.data.siteType&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="site_format"/>
       <elementValue elementRef="QUERY" value="&quot;[]$.data.siteFormat&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="store_country"/>
