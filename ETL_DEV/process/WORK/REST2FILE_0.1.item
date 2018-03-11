@@ -130,7 +130,7 @@
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$&quot;" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="access_token"/>
-      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="QUERY" value="/access_token"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
     </elementParameter>
