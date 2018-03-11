@@ -149,6 +149,7 @@
   <connection connectorName="OUTPUT_1" label="row1" lineStyle="0" metaname="GetAccessToken_1" offsetLabelX="0" offsetLabelY="0" source="GetAccessToken_1" target="tSetGlobalVar_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="true"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tJava_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
