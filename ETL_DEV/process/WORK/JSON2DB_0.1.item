@@ -111,7 +111,7 @@
     <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH_WITHOUTPUT_LOOP"/>
     <elementParameter field="CHECK" name="USEURL" value="false"/>
     <elementParameter field="TEXT" name="URLPATH" value="&quot;http://localhost:8080/JSON/JSON_file.txt&quot;" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;W:/TD/mg.json&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;W:/TD/mg_1.json&quot;"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/bills/bill/line&quot;" show="false"/>
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.data[*]&quot;" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
