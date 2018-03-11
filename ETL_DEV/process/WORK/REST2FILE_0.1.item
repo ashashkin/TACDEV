@@ -110,16 +110,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_1" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;https://uat-yoda.auchan.ro/oauth2/repositories/oauth/token&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
-    <elementParameter field="TABLE" name="HEADERS">
-      <elementValue elementRef="NAME" value="&quot;grant_type&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;client_credentials&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;password&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;auchan&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;client_id&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;editor&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;client_secret&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;secret&quot;"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="HEADERS"/>
     <elementParameter field="MEMO" name="BODY" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tREST_1">
