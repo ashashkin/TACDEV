@@ -159,7 +159,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="Authorization"/>
-      <elementValue elementRef="VALUE" value="ExtractAccessToken.access_token"/>
+      <elementValue elementRef="VALUE" value="&quot;ExtractAccessToken.access_token&quot;"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1">
