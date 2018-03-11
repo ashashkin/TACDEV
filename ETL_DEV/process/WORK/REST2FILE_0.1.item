@@ -114,7 +114,7 @@
       <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;application/x-www-form-urlencoded&quot;"/>
     </elementParameter>
-    <elementParameter field="MEMO" name="BODY" value="&quot;grant_type:client_credentials&quot;&#xD;&#xA;&quot;password:auchan&quot;&#xD;&#xA;&quot;client_id:editor&quot;&#xD;&#xA;&quot;client_secret:secret&quot;"/>
+    <elementParameter field="MEMO" name="BODY" value="&quot;grant_type:client_credentials&quot;,&#xD;&#xA;&quot;password:auchan&quot;,&#xD;&#xA;&quot;client_id:editor&quot;,&#xD;&#xA;&quot;client_secret:secret&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tREST_1">
       <column defaultValue="" key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
